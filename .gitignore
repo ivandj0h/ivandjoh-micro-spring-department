@@ -6,7 +6,7 @@ target/
 mvnw
 mvnw.cmd
 mvnw.bat
-mvnw.sh
+.mvn/wrapper
 
 
 ### STS ###
