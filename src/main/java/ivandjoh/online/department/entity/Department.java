@@ -19,7 +19,7 @@ public class Department {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private Long departmentId;
     private String departmentName;
     private String departmentCode;
 
@@ -28,7 +28,7 @@ public class Department {
         if (this == o) return true;
         if (o == null || Hibernate.getClass(this) != Hibernate.getClass(o)) return false;
         Department that = (Department) o;
-        return id != null && Objects.equals(id, that.id);
+        return departmentId != null && Objects.equals(departmentId, that.departmentId);
     }
 
     @Override
